@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Formulário</title>
+		<link rel="stylesheet" type="text/css" href="estilo/style.css">
+	</head>
+	<body>
+    <div class="container">
+       <div class="lado esquerdo do site">
+        <h2>Olá!<br> Sua participação é muito importante para nós!</h2>
+          <form action="">
+          <div class="form-group">
+            <label id="Nome">Nome</label><br>
+            <input type="text" name="nome" required placeholder="Escreva seu nome completo">
+         </div> 
+         
+         <div class="form-group">
+           <label for="idade">Idade</label><br>
+           <input type="number" name="idade" required placeholder="+18">
+         </div>
+         
+         <div class="form-group">
+           <label for="sugestoes">Sugestões</label><br>
+           <textarea name="sugestoes" id="sugestoes" rows="10" cols="40" maxlength="150"  data-contador-fonte placeholder="Escreva suas sugestões"></textarea>
+           <span data-contador-destino>150</span>
+         </div>
+         
+         
+        <div class="button">
+          <input type="submit" name="enviar" value="Enviar">
+          </div>
+        </form>
+    </div>
+    
+    <div class="lado direito do site">
+      <p class="sugestao">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, consequuntur, quisquam unde culpa quod error eveniet voluptatum accusamus numquam sunt fuga maxime architecto. Libero vero error ab recusandae eum inventore!</p>
+    </div>
+</div>
+		<script type="text/javascript" src="js/script.js"></script>
+	</body>
+</html>

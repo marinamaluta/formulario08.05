@@ -1,0 +1,47 @@
+body{
+  background: rgba(206,114,194,0.5);
+}
+
+.container{
+  display: flex;
+}
+
+.form-group{
+  margin: 20px 1px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 0px;
+}
+
+label{
+  font-weight: bold;
+  color: purple;
+  
+}
+
+/*.form-group input: valid,
+.form-group textarea: valid{
+  border: 20px solid green;
+}
+  
+.form-group input: invalid,
+.form-group textarea: invalid{
+   border: 20px solid red;
+}*/
+
+.form-group input,
+.form-group textarea#sugestoes{
+  color:#ccc;
+  border-radius: 10px;
+}
+
+
+.button input{
+  border: solid 2px purple;
+  border-radius: 20%;
+  color: purple;
+  font-weight: bold;
+}
+
